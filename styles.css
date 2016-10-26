@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: ghostwhite;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.spacer {
+    flex: 10vh;
+}
+
+.nav{
+    background-color: ghostwhite;
+    color: black;   
+}
+.meback{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 600px;
+}
+.proj{
+    background-color: rgba(225,225,225,0.2);
+    display: inline-flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    width: 38rem;
+    margin-bottom: 8px;
+}
+.proj img{
+    height:100%;
+}
+
+.img-container{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.footer{
+    font-size: 35px;
+    margin-left: 1%;
+    margin-bottom: 8px;
+    
+}
+a { 
+    color: inherit;
+ } 
+.contact{
+    background-color: rgba(225,225,225,0.2);
+}
+
